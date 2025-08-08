@@ -3,7 +3,6 @@
   damage:
     types:
       Shock: 14
-    ignoreResistances: true
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_laser

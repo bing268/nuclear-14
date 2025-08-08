@@ -168,7 +168,7 @@
     state: rifleman
   - type: UndecidedLoadoutBackpack
     possibleSets:
-    - itKBrootherWest_ElderlasSet
+    - KitKBrootherWest_ElderlasSet
     - KitBrootherWest_ElderrifleSet
 
 # Broother Western kits Paladin
@@ -582,7 +582,7 @@
 
 # Broother Western kits Squire
 - type: UndecidedLoadoutBackpackSet
-  id: KitBrootherWest_Squirerifle_Set
+  id: KitBrootherWest_SquirerifleSet
   name: undecided-loadout-category-squire-rifle-name
   description: undecided-loadout-category-squire-rifle-description
   sprite:
