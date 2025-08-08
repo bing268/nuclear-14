@@ -168,7 +168,7 @@
     state: rifleman
   - type: UndecidedLoadoutBackpack
     possibleSets:
-    - KitKBrootherWest_ElderlasSet
+    - KitBrootherWest_ElderlasSet
     - KitBrootherWest_ElderrifleSet
 
 # Broother Western kits Paladin
@@ -692,4 +692,4 @@
     sprite: _Nuclear14/Objects/Misc/kits.rsi
     state: rifleman
   content:
-  - KitBrootherWest_Paladinlas
+  - KitBrootherWest_Elderlas
