@@ -16,8 +16,8 @@
   - type: Sprite
     netsync: false
     noRot: true
-    sprite: _Nuclear14/Structures/Decoration/torches.rsi
-    state: torch_unlit
+    sprite: Corvax/Structures/Decoration/torches.rsi
+    state: torch_lit
   - type: Appearance
   - type: Reactive
     groups:
@@ -41,7 +41,7 @@
       types:
         Heat: 0.1
   - type: FireVisuals
-    sprite: _Nuclear14/Structures/Decoration/torches.rsi
+    sprite: Corvax/Structures/Decoration/torches.rsi
     normalState: torch_lit
   - type: Damageable
     damageModifierSet: Wood
@@ -67,9 +67,9 @@
   components:
   - type: Sprite
     noRot: false
-    state: wall_torch_unlit
+    state: wall_torch_lit
   - type: FireVisuals
-    sprite: _Nuclear14/Structures/Decoration/torches.rsi
+    sprite: Corvax/Structures/Decoration/torches.rsi
     normalState: wall_torch_lit
   - type: Construction
     graph: WallTorch

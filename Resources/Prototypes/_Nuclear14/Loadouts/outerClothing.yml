@@ -31,12 +31,12 @@
 - type: loadout
   id: N14LoadoutOuterRobeHubologist
   category: Outer
-  cost: 2
+  cost: 5
   requirements:
     - !type:CharacterItemGroupRequirement
       group: N14LoadoutOuter
   items:
-    -  N14ClothingOuterRobeHubologist
+    -  N14ClothingOuterConusrobe
 
 - type: loadout
   id: N14ClothingOuterFlannelRed

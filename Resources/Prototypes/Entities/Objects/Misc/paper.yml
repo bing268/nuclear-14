@@ -5,7 +5,7 @@
   description: 'A piece of white paper.'
   components:
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
+    sprite: _Nuclear14/Objects/Misc/clutter.rsi
     layers:
     - state: paper
     - state: paper_words
@@ -323,11 +323,11 @@
     - Write
     - Pen
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
-    state: pen
+    sprite: _Nuclear14\Objects\Misc\clutter.rsi
+    state: pencil
   - type: Item
-    sprite: Objects/Misc/bureaucracy.rsi
-    heldPrefix: pen
+    sprite: _Nuclear14\Objects\Misc\clutter.rsi
+    heldPrefix: pencil
     size: Tiny
   - type: PhysicalComposition
     materialComposition:
@@ -370,9 +370,9 @@
   description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
   components:
   - type: Sprite
-    state: luxury_pen
+    state: pen-fountain
   - type: Item
-    heldPrefix: luxury_pen
+    heldPrefix: pen-fountain
 
 - type: entity
   name: Cybersun pen
