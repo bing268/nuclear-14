@@ -1,5 +1,5 @@
 - type: entity
-  name: paper
+  name: paper   #Изменены спрайты на иные Corvax
   parent: BaseItem
   id: Paper
   description: 'A piece of white paper.'
@@ -313,7 +313,7 @@
 
 
 - type: entity
-  name: pen
+  name: pen    #Изменены спрайты на иные Corvax
   parent: BaseItem
   id: Pen
   description: 'A dark ink pen.'
@@ -323,7 +323,7 @@
     - Write
     - Pen
   - type: Sprite
-    sprite: _Nuclear14\Objects\Misc\clutter.rsi
+    sprite: _Nuclear14\Objects\Misc\clutter.rsi   #Изменены спрайты на иные Corvax
     state: pencil
   - type: Item
     sprite: _Nuclear14\Objects\Misc\clutter.rsi
@@ -372,7 +372,7 @@
   - type: Sprite
     state: pen-fountain
   - type: Item
-    heldPrefix: pen-fountain
+    heldPrefix: pen-fountain   #Изменены спрайты на иные Corvax
 
 - type: entity
   name: Cybersun pen

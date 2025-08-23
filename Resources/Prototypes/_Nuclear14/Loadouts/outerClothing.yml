@@ -36,7 +36,7 @@
     - !type:CharacterItemGroupRequirement
       group: N14LoadoutOuter
   items:
-    -  N14ClothingOuterConusrobe
+    -  N14ClothingOuterConusrobe   #Добавлено по просьбе игроков Corvax
 
 - type: loadout
   id: N14ClothingOuterFlannelRed

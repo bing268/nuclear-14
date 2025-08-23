@@ -1,5 +1,5 @@
 - type: entity
-  id: N14Torch
+  id: N14Torch    #Фикс спрайтов горения Corvax
   name: torch
   suffix: floor, mapping
   description: A flaming torch for lighting an area.

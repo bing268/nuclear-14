@@ -86,7 +86,7 @@
     offset: 0,0.25
     drawdepth: SmallObjects
     layers:
-      - sprite: Corvax/Structures/Misc/tableradio.rsi
+      - sprite: Corvax/Structures/Misc/tableradio.rsi #Изменен спрайт радио на наш Corvax
         state: base
         map: [ "base" ]
       - state: on

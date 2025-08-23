@@ -28,7 +28,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      130: Dead
+      130: Dead   #Баф гекко Corvax
   - type: DamageStateVisuals
     states:
       Alive:
@@ -47,7 +47,7 @@
     wideAnimation: WeaponArcBite
     damage:
       types:
-        Slash: 8
+        Slash: 8   #Баф гекко Corvax
   - type: Butcherable
     spawned:
     - id: N14FoodMeatGecko
@@ -94,7 +94,7 @@
     wideAnimation: WeaponArcBite
     damage:
       types:
-        Slash: 7
+        Slash: 7   #Баф гекко Corvax
   - type: Butcherable
     spawned:
     - id: N14FoodMeatGeckoFire
@@ -169,7 +169,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      190: Dead
+      190: Dead   #Баф гекко Corvax
   - type: MeleeWeapon
     altDisarm: false
     hidden: true
@@ -179,7 +179,7 @@
     animation: WeaponArcBite
     wideAnimation: WeaponArcBite
     damage:
-      types:
+      types:      #Баф гекко Corvax
         Slash: 14
         Radiation: 5
   - type: Butcherable

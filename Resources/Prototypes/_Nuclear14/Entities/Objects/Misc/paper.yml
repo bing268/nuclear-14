@@ -1,7 +1,7 @@
 - type: entity
   name: reporters pen
   parent: Pen
-  id: N14PenReporter
+  id: N14PenReporter    #Изменены спрайты на иные Corvax
   description: A one of a kind pen that uses a ballpoint for versatility. Reads Wasteland News.
   components:
   - type: Sprite
