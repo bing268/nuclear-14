@@ -51,9 +51,6 @@
         mask:
         - Impassable
         - HighImpassable
-  - type: Airtight
-    airBlocked: true
-    fix: fix1
 
 - type: entity
   id: BlastDoorOpenTown
