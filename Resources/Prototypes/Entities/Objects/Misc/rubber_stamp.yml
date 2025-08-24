@@ -1,5 +1,5 @@
 - type: entity
-  name: generic rubber stamp
+  name: generic rubber stamp               # Forge-Change
   parent: BaseItem
   id: RubberStampBase
   description: A rubber stamp for stamping important documents.
@@ -15,7 +15,7 @@
         volume: -2
         maxDistance: 5
   - type: Sprite
-    sprite: _Nuclear14/Objects/Misc/clutter.rsi  #Изменены все спрайты на иные для работы новой бумаги .Corvax
+    sprite: _Nuclear14/Objects/Misc/clutter.rsi  # Forge-Change-Start
     state: stamp-mime
   - type: Item
     size: Tiny
@@ -257,4 +257,4 @@
     stampedColor: "#FC0A0A"
     stampState: "paper_stamp-deny"
   - type: Sprite
-    state: stamp-deny
+    state: stamp-deny                 # Forge-Change-End

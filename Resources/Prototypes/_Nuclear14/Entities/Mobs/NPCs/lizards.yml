@@ -1,5 +1,5 @@
 # Gecko variants
-- type: entity
+- type: entity      # Forge-Change
   name: gecko
   id: N14MobGecko
   parent: N14MobBaseHostileScaley
@@ -11,7 +11,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: gecko
       sprite: _Nuclear14/Mobs/Animals/gecko.rsi
-  - type: MovementSpeedModifier
+  - type: MovementSpeedModifier         # Forge-Change-Start
     baseWalkSpeed : 4
     baseSprintSpeed : 5
   - type: Fixtures
@@ -28,7 +28,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      130: Dead   #Баф гекко Corvax
+      130: Dead
   - type: DamageStateVisuals
     states:
       Alive:
@@ -53,7 +53,7 @@
     - id: N14FoodMeatGecko
       amount: 3
     - id: N14MaterialHideGecko
-      amount: 1
+      amount: 1                      # Forge-Change-End
   #- type: Reproductive
     #breedChance: 0.05
     #birthPopup: reproductive-laid-egg-popup
@@ -73,7 +73,7 @@
     #- Gecko
 
 - type: entity
-  parent: N14MobGecko
+  parent: N14MobGecko          # Forge-Change
   id: N14MobGeckoFire
   name: fire gecko
   description: A dangerous fire gecko. Don't let it get close!
@@ -84,7 +84,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: gecko
       sprite: _Nuclear14/Mobs/Animals/firegecko.rsi
-  - type: MeleeWeapon
+  - type: MeleeWeapon               # Forge-Change-Start
     altDisarm: false
     hidden: true
     soundHit:
@@ -100,7 +100,7 @@
     - id: N14FoodMeatGeckoFire
       amount: 3
     - id: N14MaterialHideGeckoFire
-      amount: 1
+      amount: 1                  # Forge-Change-End
   # - type: Reproductive
     # breedChance: 0.05
     # birthPopup: reproductive-laid-egg-popup
@@ -156,7 +156,7 @@
 
 - type: entity
   name: golden gecko
-  id: N14MobGeckoGolden
+  id: N14MobGeckoGolden                    # Forge-Change
   parent: N14MobGecko
   description: A beautiful golden gecko. Don't let it scratch.
   components:
@@ -166,10 +166,10 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: gecko
       sprite: _Nuclear14/Mobs/Animals/goldengecko.rsi
-  - type: MobThresholds
+  - type: MobThresholds                   # Forge-Change-Start
     thresholds:
       0: Alive
-      190: Dead   #Баф гекко Corvax
+      190: Dead
   - type: MeleeWeapon
     altDisarm: false
     hidden: true
@@ -179,7 +179,7 @@
     animation: WeaponArcBite
     wideAnimation: WeaponArcBite
     damage:
-      types:      #Баф гекко Corvax
+      types:
         Slash: 14
         Radiation: 5
   - type: Butcherable
@@ -187,7 +187,7 @@
     - id: N14FoodMeatGeckoGolden
       amount: 3
     - id: N14MaterialHideGeckoGolden
-      amount: 1
+      amount: 1                            # Forge-Change-End
   # - type: Reproductive
     # breedChance: 0.05
     # birthPopup: reproductive-laid-egg-popup

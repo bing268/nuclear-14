@@ -1,12 +1,12 @@
 - type: entity
-  id: N14Torch    #Фикс спрайтов горения Corvax
+  id: N14Torch    # Forge-Change
   name: torch
   suffix: floor, mapping
   description: A flaming torch for lighting an area.
   placement:
     mode: SnapgridCenter
   components:
-  - type: Transform
+  - type: Transform      # Forge-Change-Start
     anchored: true
   - type: Clickable
   - type: InteractionOutline
@@ -73,4 +73,4 @@
     normalState: wall_torch_lit
   - type: Construction
     graph: WallTorch
-    node: WallTorch
+    node: WallTorch      # Forge-Change-End
