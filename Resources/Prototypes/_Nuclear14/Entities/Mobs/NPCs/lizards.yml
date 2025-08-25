@@ -1,5 +1,5 @@
 # Gecko variants
-- type: entity      # Forge-Change
+- type: entity
   name: gecko
   id: N14MobGecko
   parent: N14MobBaseHostileScaley
@@ -11,9 +11,9 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: gecko
       sprite: _Nuclear14/Mobs/Animals/gecko.rsi
-  - type: MovementSpeedModifier         # Forge-Change-Start
-    baseWalkSpeed : 4
-    baseSprintSpeed : 5
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 4                         # Forge-Change
+    baseSprintSpeed : 5                       # Forge-Change
   - type: Fixtures
     fixtures:
       fix1:
@@ -47,13 +47,13 @@
     wideAnimation: WeaponArcBite
     damage:
       types:
-        Slash: 8   #Баф гекко Corvax
+        Slash: 8                        # Forge-Change
   - type: Butcherable
     spawned:
     - id: N14FoodMeatGecko
       amount: 3
     - id: N14MaterialHideGecko
-      amount: 1                      # Forge-Change-End
+      amount: 1
   #- type: Reproductive
     #breedChance: 0.05
     #birthPopup: reproductive-laid-egg-popup
@@ -73,7 +73,7 @@
     #- Gecko
 
 - type: entity
-  parent: N14MobGecko          # Forge-Change
+  parent: N14MobGecko
   id: N14MobGeckoFire
   name: fire gecko
   description: A dangerous fire gecko. Don't let it get close!
@@ -84,7 +84,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: gecko
       sprite: _Nuclear14/Mobs/Animals/firegecko.rsi
-  - type: MeleeWeapon               # Forge-Change-Start
+  - type: MeleeWeapon
     altDisarm: false
     hidden: true
     soundHit:
@@ -94,13 +94,13 @@
     wideAnimation: WeaponArcBite
     damage:
       types:
-        Slash: 7   #Баф гекко Corvax
+        Slash: 7                        # Forge-Change
   - type: Butcherable
     spawned:
     - id: N14FoodMeatGeckoFire
       amount: 3
     - id: N14MaterialHideGeckoFire
-      amount: 1                  # Forge-Change-End
+      amount: 1
   # - type: Reproductive
     # breedChance: 0.05
     # birthPopup: reproductive-laid-egg-popup
@@ -156,7 +156,7 @@
 
 - type: entity
   name: golden gecko
-  id: N14MobGeckoGolden                    # Forge-Change
+  id: N14MobGeckoGolden
   parent: N14MobGecko
   description: A beautiful golden gecko. Don't let it scratch.
   components:
@@ -166,10 +166,10 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: gecko
       sprite: _Nuclear14/Mobs/Animals/goldengecko.rsi
-  - type: MobThresholds                   # Forge-Change-Start
+  - type: MobThresholds
     thresholds:
       0: Alive
-      190: Dead
+      190: Dead                            # Forge-Change
   - type: MeleeWeapon
     altDisarm: false
     hidden: true
@@ -180,14 +180,14 @@
     wideAnimation: WeaponArcBite
     damage:
       types:
-        Slash: 14
-        Radiation: 5
+        Slash: 14                          # Forge-Change
+        Radiation: 5                       # Forge-Change
   - type: Butcherable
     spawned:
     - id: N14FoodMeatGeckoGolden
       amount: 3
     - id: N14MaterialHideGeckoGolden
-      amount: 1                            # Forge-Change-End
+      amount: 1
   # - type: Reproductive
     # breedChance: 0.05
     # birthPopup: reproductive-laid-egg-popup

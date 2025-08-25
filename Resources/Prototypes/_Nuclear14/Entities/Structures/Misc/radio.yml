@@ -75,18 +75,18 @@
         layer:
         - MachineLayer
 
-- type: entity # Prototype for radio receivers  # Forge-Change-Start
+- type: entity # Prototype for radio receivers
   name: table radio
   description: A simple tabletop radio
   parent: BaseStructure
   id: N14RadioTable
   components:
   - type: Sprite #states aren't quite working, will need to address, would like to have it toggle state when you turn on and off the radio
-    sprite: Corvax/Structures/Misc/tableradio.rsi # Forge-Change-Start
+    sprite: Corvax/Structures/Misc/tableradio.rsi # Forge-Change
     offset: 0,0.25
     drawdepth: SmallObjects
     layers:
-      - sprite: Corvax/Structures/Misc/tableradio.rsi # Forge-Change-End
+      - sprite: Corvax/Structures/Misc/tableradio.rsi # Forge-Change
         state: base
         map: [ "base" ]
       - state: on

@@ -1,12 +1,12 @@
 - type: entity
-  id: N14Torch    # Forge-Change
+  id: N14Torch
   name: torch
   suffix: floor, mapping
   description: A flaming torch for lighting an area.
   placement:
     mode: SnapgridCenter
   components:
-  - type: Transform      # Forge-Change-Start
+  - type: Transform
     anchored: true
   - type: Clickable
   - type: InteractionOutline
@@ -16,8 +16,8 @@
   - type: Sprite
     netsync: false
     noRot: true
-    sprite: Corvax/Structures/Decoration/torches.rsi
-    state: torch_lit
+    sprite: Corvax/Structures/Decoration/torches.rsi   # Forge-Change замена спрайтов на работающие
+    state: torch_lit                                   # Forge-Change
   - type: Appearance
   - type: Reactive
     groups:
@@ -41,8 +41,8 @@
       types:
         Heat: 0.1
   - type: FireVisuals
-    sprite: Corvax/Structures/Decoration/torches.rsi
-    normalState: torch_lit
+    sprite: Corvax/Structures/Decoration/torches.rsi     # Forge-Change замена спрайтов на работающие
+    normalState: torch_lit                               # Forge-Change
   - type: Damageable
     damageModifierSet: Wood
   - type: Destructible
@@ -67,10 +67,10 @@
   components:
   - type: Sprite
     noRot: false
-    state: wall_torch_lit
+    state: wall_torch_lit                  # Forge-Change
   - type: FireVisuals
-    sprite: Corvax/Structures/Decoration/torches.rsi
-    normalState: wall_torch_lit
+    sprite: Corvax/Structures/Decoration/torches.rsi      # Forge-Change замена спрайтов на работающие
+    normalState: wall_torch_lit            # Forge-Change
   - type: Construction
     graph: WallTorch
-    node: WallTorch      # Forge-Change-End
+    node: WallTorch

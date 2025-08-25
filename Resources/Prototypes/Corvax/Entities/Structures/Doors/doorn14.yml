@@ -6,7 +6,7 @@
   components:
   - type: AccessReader
   - type: Sprite
-    sprite: Corvax/Structures/Door/towngate.rsi  # Временный спрайт для тестирования
+    sprite: Corvax/Structures/Door/towngate.rsi
     state: closed
   - type: Door
     closeTimeOne: 0.4

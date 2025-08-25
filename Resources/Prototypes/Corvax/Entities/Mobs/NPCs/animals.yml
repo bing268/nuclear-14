@@ -181,7 +181,7 @@
   parent: N14MobBrahdoLight
   id: N14MobBrahdoLighttribal
   name: brahdo
-  description: "ehhoh cowboy! Jump on the brado and let's go chase the Brahmins" #Племенное брадо добавленно Corvax
+  description: "ehhoh cowboy! Jump on the brado and let's go chase the Brahmins"
   suffix: tribal
   components:
   - type: Sprite
