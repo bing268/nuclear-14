@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Taken from Mars36 bu Bing",
+  "size": {
+    "x": 256,
+    "y": 256
+  },
+  "states": [
+    {
+      "name": "Vint(left)"
+    },
+    {
+      "name": "Vint(right)"
+    },
+    {
+      "name": "VintBOS(left)"
+    },
+    {
+      "name": "VintBOS(right)"
+    },
+    {
+      "name": "VintNCR(left)"
+    },
+    {
+      "name": "VintNCR(right)"
+    }
+  ]
+}
